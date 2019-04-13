@@ -17,7 +17,7 @@ function QuickUnion () {
    */
    this.root = (i) => {
       while (i != id[i]) {
-          i = id[i];
+          i = this.id[i];
       }
 
       return i;
@@ -33,9 +33,9 @@ function QuickUnion () {
   }
 
   function union(p, q) {
-      let p = root(p);
-      let q = root(q);
-      id[i] = j;
+      let pId = root(p);
+      let qId = root(q);
+      this.id[pId] = qId;
   }
 }
 
