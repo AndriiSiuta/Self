@@ -42,4 +42,3 @@ function QuickUnion () {
 let quickUnion = new QuickUnion();
 quickUnion.generateArray(10);
 console.log(quickUnion.id);
-console.log(quickUnion(1, 2))
